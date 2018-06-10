@@ -264,11 +264,11 @@ function moneyTrain(speed){
     return "You are riding the Honolulu's Rail.";
   } else if (speed < 100){
     return "You are riding an Amtrak.";
-  } else (speed >= 100) {
+  } else{
     return "BULLET TRAIN!";
   }
 }
-console.log
+console.log('13. trains '+ moneyTrain(90));
 /*
  * #14
  * Function - buyDoughnut
@@ -282,6 +282,21 @@ console.log
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+var budget = 25
+var doughnutPrice = 5
+var doughnutBought = 0
+
+function buyDoughnut(){
+  if (budget >= doughnutPrice){
+    budget -= doughnutPrice;
+    doughnutBought++;
+  } else return 'no more money!'
+}
+
+buyDoughnut();
+console.log(budget);
+console.log(doughnutBought);
+
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
@@ -382,16 +397,3 @@ Final Boss
 */
 
 var phrase = "An apple a day keeps Alice feeling awesome!";
- 
-  
-  
-
-
-
-
-
-
-
-
-
-
