@@ -204,8 +204,12 @@ console.log('9. dirty30 '+ dirty30(23,5,9));
  * Console.log your result.
 */ 
 
-
-
+function evenStevens(num){
+  if ((num % 2) !== 0){
+    return false;
+  } else return true;
+}
+console.log('10. evenStevens ' + evenStevens(2));
 
 /*
  * #11
