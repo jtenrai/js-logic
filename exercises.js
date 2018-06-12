@@ -319,7 +319,7 @@ var toyotaModels = ["Corolla", "Prius", "4 Runner", "Camry", "Land Cruiser"];
 for (var i = 0; i<toyotaModels.length; i++){
    console.log("Toyota " + toyotaModels[i]);
 }
-
+//loops! erase this later
 
 /* 
  * #15
